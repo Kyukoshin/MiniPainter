@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>40k painter</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('input[type="checkbox"]').click(function(){
+            var inputValue = $(this).attr("value");
+            $("." + inputValue).toggle();
+        });
+    });
+    </script>
+</head>
+<body>
+    <div class="mainContent">
+        <div class="pictureContainer">
+            <div class="backgroundImage"></div>
+            <div class="maskImage armor"></div>
+            <div class="maskImage metal"></div>
+            <div class="maskImage highlights"></div>
+            <div class="maskImage weapon"></div>
+            <div class="maskImage accessories"></div>
+            <div class="maskImage base"></div>
+        </div>
+        <div class="contentContainer">
+            <div class="itemContainer">
+                <input type="checkbox" id="armor" checked="true" value="armor">
+                <div class="itemColor"></div>
+                <label>Armor</label>
+            </div>
+            <div class="itemContainer">
+                <input type="checkbox" id="metal" checked="true" value="metal">
+                <div class="itemColor"></div>
+                <label>Metal</label>
+            </div>
+            <div class="itemContainer">
+                <input type="checkbox" id="highlights" checked="true" value="highlights">
+                <div class="itemColor"></div>
+                <label>Highlights</label>
+            </div>
+            <div class="itemContainer">
+                <input type="checkbox" id="weapon" checked="true" value="weapon">
+                <div class="itemColor"></div>
+                <label>Weapon</label>
+            </div>
+            <div class="itemContainer">
+                <input type="checkbox" id="accessories" checked="true" value="accessories">
+                <div class="itemColor"></div>
+                <label>Accessories</label>
+            </div>
+            <div class="itemContainer">
+                <input type="checkbox" id="accessories" checked="true" value="base">
+                <div class="itemColor"></div>
+                <label>Base</label>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

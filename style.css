@@ -1,0 +1,81 @@
+.mainContent{
+    display: flex;
+    flex-flow: row;
+}
+
+.pictureContainer{
+    width: 400px;
+    height: 300px;
+}
+
+.backgroundImage{
+    background-image: url("img/grey_marine.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: inherit;
+}
+
+.maskImage{
+    position: absolute;
+    top: 0.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: inherit;
+    width: inherit;
+    z-index: 1000;
+
+}
+
+.contentContainer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.itemContainer{
+    display: grid;
+    grid-template-columns: repeat(2, .5fr) 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    align-items: center;
+    padding: .3em;
+}
+
+.itemColor{
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid black;
+}
+
+.armor{
+    background-image: url("img/armor.png");
+    opacity: .5;
+}
+
+.metal{
+    background-image: url("img/metal.png");
+    opacity: .5;
+}
+
+.highlights{
+    background-image: url("img/highlights.png");
+    opacity: .5;
+}
+
+.weapon{
+    background-image: url("img/weapon.png");
+    opacity: .5;
+}
+
+.accessories{
+    background-image: url("img/accessories.png");
+    opacity: .5;
+}
+
+.base{
+    background-image: url("img/base.png");
+    opacity: .5;
+}
