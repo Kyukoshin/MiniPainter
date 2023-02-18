@@ -53,32 +53,32 @@
 
 .armor{
     background-image: url("img/armor.png");
-    filter: opacity(0.3) drop-shadow(0 0 0 rgb(255, 21, 21));
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(0, 17, 255));
 }
 
 .metal{
     background-image: url("img/metal.png");
-    filter: opacity(0.3) drop-shadow(0 0 0 rgb(21, 255, 52));
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(253, 186, 0));
 }
 
 .highlights{
     background-image: url("img/highlights.png");
-    filter: opacity(0.3) drop-shadow(0 0 0 rgb(255, 115, 21));
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(255, 186, 0));
 }
 
 .weapon{
     background-image: url("img/weapon.png");
-    filter: opacity(0.3) drop-shadow(0 0 0 rgb(21, 115, 255));
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(0, 0, 0));
 }
 
 .accessories{
     background-image: url("img/accessories.png");
-    filter: opacity(0.3) drop-shadow(0 0 0 rgb(220, 255, 21));
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(148, 84, 0));
 }
 
 .base{
     background-image: url("img/base.png");
-    filter: opacity(0.3) drop-shadow(0 0 0 rgb(255, 21, 21));
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(148, 84, 0));
 }
 
 select {
